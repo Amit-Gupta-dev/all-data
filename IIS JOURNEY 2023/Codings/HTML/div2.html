@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>div2</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <style>
+    .head {
+        background-color: #2053957a;
+        color: wheat;
+        overflow: hidden;
+      }
+      div ul {
+        float: right;
+    margin-right: 4rem;
+      }
+      .aligncenter li{
+        display: inline-block;
+        margin-left: 1rem;
+        font-family:Montserrat;
+        
+      }
+      .drop:hover .dropme{
+      
+      display: block;
+
+      
+      }
+    
+      .dropme{
+        position: absolute; 
+        display: none;
+        color: black;
+      padding-left: 0;
+      padding-right: 2rem;
+        background-color: rgba(72, 121, 121, 0.466);
+      }
+      .dropme li:hover{
+        width: 100%;
+        
+        background-color: azure;
+
+        
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <ul class="aligncenter">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About-Us</li>
+        <li>Useless-link</li>
+        <li class="drop"> Dropdown-link
+
+
+            <ul class="dropme">
+                <li>Name:Amit</li>
+                <li>Contact:7441136306</li>
+                <li>Adrres:My address</li>
+                </ul>
+
+
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

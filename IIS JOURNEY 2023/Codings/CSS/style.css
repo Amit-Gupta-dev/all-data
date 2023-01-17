@@ -1,0 +1,32 @@
+h1:hover{
+    color: #f35c10;
+}
+
+h1:active{
+
+    background-color: chartreuse;
+}
+a:visited{
+    color: #900f74a7;
+}
+body{
+    background-color: #FFF8E1;
+    
+    
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+     border-width: 5px;
+     margin-right: 60%;
+    
+     width: 20%;
+    border-color: rgb(22, 137, 126);
+    
+
+
+}
+.haven:hover{
+ color: rgba(77, 125, 14, 0.971);
+ background: rgba(203, 121, 248, 0.063);
+}

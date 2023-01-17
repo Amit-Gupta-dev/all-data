@@ -1,0 +1,14 @@
+.ONLY_FOR_USE_IN_CLASS_OR_TAB_WHEN_NEED_TO_CHANGE_THE_TEXT_STYLE{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: 0;
+   
+     
+}
